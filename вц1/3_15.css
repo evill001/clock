@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    max-width: 1026px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-menu{
+    margin: 10px 0;
+    height: 40px;
+    font-size: 18px;
+    line-height: 41px;
+}
+.main-menu img{
+    float: left;
+    margin-left: 40px;
+    height: 50px;
+}
+.main-menu nav{
+    float: right;
+}
+.main-menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+.main-menu p{
+    float: right;
+    margin-left: 20px;
+    font-weight: 700;
+}
+.banner{
+    background-image: url(banner.png);
+    height: 200px;
+    background-size: 1026px;
+}
+/* brands */
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px;
+}
+.brands .content, .clock .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.brands .content div{
+    border: 1px solid #7d2222;
+    width: 155px;
+    height: 155px;
+    background-size: 155px 155px;
+}
+.brands .content div:nth-child(1){
+    background-image: url("brand 1.png");
+}
+.brands .content div:nth-child(2){
+    background-image: url("brand 2.png");
+}
+.brands .content div:nth-child(3){
+    background-image: url("brand 3.png");
+}
+.brands .content div:nth-child(4){
+    background-image: url("brand 4.png");
+}
+.brands .content div:nth-child(5){
+    background-image: url("brand 5.png");
+}
+.brands .content div:nth-child(6){
+    background-image: url("brand 6.png");
+}
+/* clock */
+.clock .content div{
+    border: 1px solid #000;
+    border-radius: 13px;
+    width: 232px;
+    height: 330px;
+    text-align: center;
+    font-size: 14pt;
+}
+.clock .content div img{
+    margin-top: 10px;
+    height: 220px;
+}
+.clock .content div p:nth-child(2){
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.clock .content div p:nth-child(4){
+    color: #8A0000;
+}
+/* форма */
+.main-form{
+    height: 267px;
+    background-color: #630000;
+    color: #fff;
+    padding: 0 120px;
+}
+
+.main-form h3{
+    padding-top:  75px;
+    text-align: start;
+    margin-left: 0;
+}
+
+.main-form p{
+    padding-bottom: 25px;
+}
+.main-form form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-form input{
+    background-color: #fff;
+    padding: 10px 5px;
+    color: #A0A0A0;
+    border-radius: 5px;
+    border: none;
+    width: 230px;
+    font-size: 12pt;
+}
+
+.main-form button{
+    border-radius: 5px;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    width: 230px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #630000;
+    font-size: 12pt;
+}
+
+.contacts p{
+    padding: 0 120px 40px;
+}
+
+footer{
+    background-color: #000;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+}
+
+footer p{
+    padding-top: 28px;
+    font-size: 18px;
+}
